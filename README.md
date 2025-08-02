@@ -22,7 +22,21 @@ This is part of a larger effort to bridge **AI ethics**, **affective computing**
 
 ## 📁 Project Structure
 
-<pre> chatgpt-crisis-bias-audit/ ├── data/ │ ├── prompts.csv # Crafted emotional prompts (100–200) │ ├── gpt_responses.csv # GPT outputs with metadata │ └── annotations.csv # (Optional) Human empathy/safety ratings ├── analysis/ │ └── response_analysis.ipynb # Sentiment, LIME, bias visualisation ├── ethics/ │ ├── ethics_memo.md # Ethical reflections on harms & use │ └── related_research.md # Annotated academic references ├── app/ │ └── streamlit_app.py # Optional Streamlit visualisation tool ├── README.md ├── requirements.txt └── LICENSE </pre>
+<pre> chatgpt-crisis-bias-audit/ 
+├── data/ │
+├── prompts.csv # Crafted emotional prompts (100–200) │ 
+├── gpt_responses.csv #GPT outputs with metadata 
+ └── annotations.csv #Human empathy/safety ratings 
+├── analysis/ 
+│ └── response_analysis.ipynb # Sentiment, LIME, bias visualisation 
+├── ethics/ │ 
+├── ethics_memo.md # Ethical reflections on harms & use 
+│ └── related_research.md # Annotated academic references
+├── app/ 
+│ └── streamlit_app.py # Optional Streamlit visualisation tool 
+├── README.md 
+├── requirements.txt 
+└── LICENSE </pre>
 
 
 ---
