@@ -2,7 +2,7 @@
 
 # 🧠 ChatGPT in Crisis: Can Language Models Understand Distress?
 
-This project investigates how large language models (LLMs) — particularly ChatGPT — respond to emotionally distressing prompts, especially when those prompts include markers of identity such as race, gender, or culture. As LLMs are increasingly deployed in sensitive domains like mental health, customer support, and social platforms, it is critical to ask: **Can these models truly understand distress? And do they respond equitably across different identities?**
+This project investigates how large language models (LLMs), particularly ChatGPT , respond to emotionally distressing prompts, especially when those prompts include markers of identity such as race, gender, or culture. As LLMs are increasingly deployed in sensitive domains like mental health, customer support, and social platforms, it is critical to ask: **Can these models truly understand distress? And do they respond equitably across different identities?**
 
 ---
 
@@ -22,20 +22,7 @@ This is part of a larger effort to bridge **AI ethics**, **affective computing**
 
 ## 📁 Project Structure
 
-chatgpt-crisis-bias-audit/
-├── data/
-│ ├── prompts.csv # 100–200 crafted emotional prompts
-│ ├── gpt_responses.csv # GPT outputs with metadata
-│ └── annotations.csv # Human empathy/safety ratings (optional)
-├── analysis/
-│ └── response_analysis.ipynb # Sentiment, LIME, bias plots, stats
-├── ethics/
-│ ├── ethics_memo.md # Reflections on harms, limitations, design
-│ └── related_research.md # Annotated reading list
-├── app/ # Optional Streamlit interface
-├── README.md
-├── requirements.txt
-└── LICENSE
+<pre> chatgpt-crisis-bias-audit/ ├── data/ │ ├── prompts.csv # Crafted emotional prompts (100–200) │ ├── gpt_responses.csv # GPT outputs with metadata │ └── annotations.csv # (Optional) Human empathy/safety ratings ├── analysis/ │ └── response_analysis.ipynb # Sentiment, LIME, bias visualisation ├── ethics/ │ ├── ethics_memo.md # Ethical reflections on harms & use │ └── related_research.md # Annotated academic references ├── app/ │ └── streamlit_app.py # Optional Streamlit visualisation tool ├── README.md ├── requirements.txt └── LICENSE </pre>
 
 
 ---
